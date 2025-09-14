@@ -1,0 +1,39 @@
+/* Century Gothic Font */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('https://fonts.googleapis.com/css2?family=Century+Gothic:wght@400;700&display=swap');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('https://fonts.googleapis.com/css2?family=Century+Gothic:wght@400;700&display=swap');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Existing Sanctuary Gothic Font */
+@font-face {
+  font-family: 'Sanctuary Gothic';
+  src: url('/fonts/sanctuary-gothic.woff2') format('woff2'),
+       url('/fonts/sanctuary-gothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Global font application */
+* {
+  font-family: 'Century Gothic', 'Inter', sans-serif;
+}
+
+body {
+  font-family: 'Century Gothic', 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Century Gothic', 'Inter', sans-serif;
+}
